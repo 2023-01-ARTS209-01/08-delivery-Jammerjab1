@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Driver : MonoBehaviour
 {
-    [SerializeField] private float steerSpeed = 1f;
-    [SerializeField] private float driveSpeed = 0.04f;
+    private float steerSpeed = 200f;
+    private float driveSpeed = 15f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +21,24 @@ public class Driver : MonoBehaviour
 
         transform.Rotate(0,0,-steerAmount); 
         transform.Translate(0, driveAmount, 0);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Walls"))
+        {
+            Debug.Log("Ouch!");
+            driveSpeed = 15f;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D trigger)
+    {
+
+        if(trigger.gameObject.CompareTag("Boost"))
+        {
+            Debug.Log("Speed Boost!!!");
+            driveSpeed = 30f;
+        }
+        
     }
 }
