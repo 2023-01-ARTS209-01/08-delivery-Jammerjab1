@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d2192b88803924f8cba5bd21b20d8110
+guid: 43062a2ca6e184b979c357a70a6f9726
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wallTiles_0
+      name: road_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 16
-        height: 16
+        y: 240
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43f8e013de8734903a947b3742e36eeb
-      internalID: -2042084422
+      spriteID: 5fdcd723898464dcfbd39c2de12f0530
+      internalID: -325625476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wallTiles_1
+      name: road_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 80
+        y: 240
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c76b1d71b13b4b04888becf0f4d86b8
-      internalID: -1809204047
+      spriteID: a796d655ae13f4f28a2ff26a25c26d1f
+      internalID: 928947010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wallTiles_2
+      name: road_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 160
+        y: 240
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5fbf85b637944a0b9bf2520c4f642e9
-      internalID: -555721538
+      spriteID: fd1a8ac3f27d248f8b1330900dccce10
+      internalID: -936586956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wallTiles_3
+      name: road_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 160
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f68275b4f7b5b41d6b1916bb4c36211d
-      internalID: -947508330
+      spriteID: b15a199f7b69a49a4affdcd1327f6677
+      internalID: -1926971169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wallTiles_4
+      name: road_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 80
+        y: 160
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa4f6afa5fd294e5f978e2ce07d86252
-      internalID: 2039293844
+      spriteID: 5de341b3c3d1247808e3832fbce1c8cf
+      internalID: -1597378882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wallTiles_5
+      name: road_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 160
+        y: 160
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +223,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6e5170fa271f467db4d3f34d14d825b
-      internalID: -1287096907
+      spriteID: 8929a5092fca84d02bc6f8d131d05d49
+      internalID: 1406984611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wallTiles_6
+      name: road_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cddb798e3ac4427a8b3f4e7879f2c5c
+      internalID: 397380503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7178c673a873440ffa0d3d45f9b1bb3c
+      internalID: -982238715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: road_8
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3150289f600846e5a5b6f51ba988a5a
-      internalID: 293624827
+      spriteID: 10975fa08f9d9405bac730c071afb9ad
+      internalID: 1341189125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wallTiles_7
+      name: road_9
       rect:
         serializedVersion: 2
-        x: 16
+        x: 80
         y: 0
-        width: 16
-        height: 16
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,29 +307,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1bdd1ec4ed7d4a84b283ce08f57731d
-      internalID: 625492683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wallTiles_8
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e209455ed9674b7d9ad8f32aae1015c
-      internalID: 402349244
+      spriteID: 734003a4aaf3f45afafcc4353ddbc885
+      internalID: -1922266487
       vertices: []
       indices: 
       edges: []
@@ -303,15 +324,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      wallTiles_1: -1809204047
-      wallTiles_4: 2039293844
-      wallTiles_5: -1287096907
-      wallTiles_7: 625492683
-      wallTiles_2: -555721538
-      wallTiles_8: 402349244
-      wallTiles_3: -947508330
-      wallTiles_6: 293624827
-      wallTiles_0: -2042084422
+      road_2: -936586956
+      road_1: 928947010
+      road_9: -1922266487
+      road_7: -982238715
+      road_5: 1406984611
+      road_4: -1597378882
+      road_6: 397380503
+      road_8: 1341189125
+      road_3: -1926971169
+      road_0: -325625476
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1

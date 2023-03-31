@@ -7,6 +7,7 @@ public class DetectCollision : MonoBehaviour
     // variables
     private bool hasPackage = false;
 
+
     SpriteRenderer spriteRenderer;
     [SerializeField] Color hasPackageColor;
     [SerializeField] Color doesNotHavePackageColor;
@@ -35,8 +36,9 @@ public class DetectCollision : MonoBehaviour
         if(trigger.gameObject.CompareTag("Customer") && hasPackage)
         {
             hasPackage = false;
-            Debug.Log("Delivered Package.");
             spriteRenderer.color = doesNotHavePackageColor;
+            Debug.Log("Delivered Package.");
+
 
 
         }

@@ -8,6 +8,7 @@ TagManager:
   - Customer
   - Boost
   - Walls
+  - Dialog
   layers:
   - Default
   - TransparentFX
